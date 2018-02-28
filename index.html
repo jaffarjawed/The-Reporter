@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Reporter</title>
+    <link href="Content/Styles/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="Content/Styles/custom.css" media="screen">
+    
+
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-custom navbar-static-top" role="navigation">
+      <div class= "container-fluid">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#humburger-navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">The Reporter Today</a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="humburger-navigation">
+          <ul class="nav navbar-nav">
+            <li class="active">
+                <a href="world.html">WORLD</a>
+            </li>
+            <li>
+                <a href="Sports.html">SPORTS</a>
+            </li>
+            <li>
+                <a href="tech.html">TECH</a>
+            </li>
+            <li>
+                <a href="business.html">BUSINESS</a>
+            </li>
+            <li>
+                <a href="movies.html">MOVIES</a>
+            </li>
+            <li>
+                <a href="entertainment.html">ENTERTAINMENT</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">MORE<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">BOOKS</a></li>
+              </ul>
+            </li>
+         </ul>
+                    
+                    <form class="navbar-form " role="search">
+                    <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search" name="q">
+                    <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                    </div>
+                    </form>
+                    
+        </div>    <!-- /.navbar-collapse -->
+      </div><!--container-fluid -->
+    </nav>
+    <!-- carousel starts here -->  
+    
+           <div class="container-fluid-carousel">
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+                 <ol class="carousel-indicators">
+                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                 <li data-target="#myCarousel" data-slide-to="1"></li>
+                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                 </ol>
+
+    <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+               <div class="item active">
+                  <a href="https://hollywoodlife.com/2018/02/19/melania-donald-trump-pda-affairs-cheating-photo/" target="_blank"><img src="Images/corausel/1.jpeg" alt="DRump Melania" style="width:100%;"></a>
+                    <div class="carousel-caption">
+                       <p class="hidden-xs">Melania Trump Lovingly Touches Donald’s Arm With Rare PDA After Alleged Affairs Are Exposed</p>
+                    </div>
+                </div>
+
+               <div class="item">
+                 <a href="http://bgr.com/2018/02/19/samsung-galaxy-s9-plus-release-date-soon-new-leak-big-secret/" target="_blank"><img src="Images/corausel/2.jpg" alt="Chicago" style="width:100%;">
+                  <div class="carousel-caption">
+                     <p class="hidden-xs">Latest leak may have uncovered the Galaxy S9’s most exciting secret</p>
+                  </div>
+                </div>
+    
+              <div class="item">
+               <a href="http://www.firstpost.com/tech/news-analysis/google-is-rolling-out-ios-inspired-screenshot-editing-and-sharing-tools-to-its-mobile-app-4358083.html" target="_blank"><img src="Images/corausel/3.jpg" alt="New York" style="width:100%;"></a>
+                  <div class="carousel-caption">
+                     <p class="hidden-xs">Google is rolling out iOS-inspired screenshot editing and sharing tools to its mobile app</p>
+                  </div>
+               </div>
+
+               <div class="item">
+               <a href="http://www.bbc.com/news/world-asia-43063399" target="_blank"><img src="Images/corausel/4.jpg" alt="New York" style="width:100%;"></a>
+                  <div class="carousel-caption">
+                     <p class="hidden-xs">Google is rolling out iOS-inspired screenshot editing and sharing tools to its mobile app</p>
+                  </div>
+               </div>
+  
+         </div>
+
+        <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+              </a>
+      </div>
+    </div>
+    
+    <!--carousel ends here -->
+
+    <!-- News starts here-->
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-sm-8">
+            <div class="row">
+            <h3 id="news-type">FROM AROUND THE WORLD</h3>
+            
+            <!-- for screen greater than equal to sm-->
+             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+             <a href="http://www.bbc.com/news/business-43110910" target="_blank"><img src="Images/world/1.jpg" class="img-responsive" alt="Responsive image"></a>
+             <h3 id="news_heading">Chicken chaos as KFC closes outlets</h3>
+             </div>
+
+
+             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+             <a href="https://www.ndtv.com/world-news/search-for-missing-iran-plane-halted-for-second-night-1814642" target="_blank"><img src="https://i.ndtvimg.com/i/2018-02/rescue-helicopter_650x400_41519061394.jpg?output-quality=70&output-format=webp" class="img-responsive" alt="Responsive image"></a>
+             <h3 id="news_heading">Search For Missing Iran Plane Halted For Second Night</h3>
+             </div>
+
+             <div class="col-sm-4 col-md-4 col-lg-4">
+             <a href="http://www.jpost.com/Arab-Israeli-Conflict/gaza-news/Qatari-envoy-says-Israel-and-Gaza-not-interested-in-confrontation-543073" target="_blank"><img src="http://images.jpost.com/image/upload/f_auto,fl_lossy/t_Article2016_ControlFaceDetect/398952" class="img-responsive" alt="Responsive image"></a>
+             <h3 id="news_heading">Qatari envoy says Israel and Gaza not interested in confrontation</h3>
+             </div>
+             </div>
+
+            <div class="row">          
+            <h3 id="news-type">LATEST ARTICLES</h3>
+    
+             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+             <a href="https://www.entrepreneur.com/latest" target="_blank"><img src="Images/article/1.jpg" class="img-responsive" alt="Responsive image"></a>
+             <h3 id="news_heading">How Much Caution is Necessary in Business? 3 Lessons From the Crypto Craze</h3>
+             </div>
+
+             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+             <a href="https://www.entrepreneur.com/article/309248" target="_blank"><img src="Images/article/2.jpeg" class="img-responsive" alt="Responsive image"></a>
+             <h3 id="news_heading">With Billionaire Mukesh Ambani's Investment, India's Financial Capital Could Become a Digital Hub</h3>
+             </div>
+
+             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+             <a href="https://www.entrepreneur.com/article/309245" target="_blank"><img src="Images/article/3.jpg" class="img-responsive" alt="Responsive image"></a>
+             <h3 id="news_heading">How To Become An Instagram Influencer</h3>
+             </div>
+             </div>
+
+            <div class="row">
+            <h3 id="news-type">TECH NEWS</h3>
+        
+             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+             <a href="http://www.bbc.com/news/uk-england-43114471" target="_blank"><img src="Images/tech/1.jpg" class="img-responsive" alt="Responsive image"></a>
+             <h3 id="news_heading">Dark web paedophile Matthew Falder jailed for 32 years</h3>
+             </div>
+
+             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+             <a href="https://www.cnet.com/news/5g-is-less-sexy-sizzle-more-conversations-at-mwc-2018-barcelona/" target="_blank"><img src="Images/tech/2.jpg" class="img-responsive" alt="Responsive image"></a>
+             <h3 id="news_heading">5G will be less sizzle, more substance at MWC</h3>
+             </div>
+
+             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+             <a href="https://economictimes.indiatimes.com/nri/nris-in-news/indian-americans-launch-tech-triangle-for-india-israel-us/articleshow/62987036.cms" target="_blank"><img src="Images/tech/3.jpg" class="img-responsive" alt="Responsive image"></a>
+             <h3 id="news_heading">Indian Americans launch tech triangle for India, Israel & US</h3>
+             </div>
+             </div>
+           </div>  
+        <div class="col-sm-4 visible-sm visible-md visible-lg">
+        <h3 id="news-type">ADVERTISE</h3>     
+             <div class="col-sm-12 col-md-12 col-lg-12">
+             <div>
+             <img src="Images/la1.jpeg" class="img-responsive" alt="Responsive image">
+             </div>
+             <div>
+             <img src="Images/la1.jpeg" class="img-responsive" alt="Responsive image">
+             </div>
+             <div>
+             <img src="Images/la1.jpeg" class="img-responsive" alt="Responsive image">
+             </div>
+           </div>
+        </div>
+        
+      </div>
+    </div>  
+
+    <!-- News ends here-->
+
+
+
+      <!--Footer-->
+    <div class="container-fluid">
+    <section style="height:80px;"></section>
+    <!----------- Footer ------------>
+    <footer class="footer-bs">
+        <div class="row" id="footer_area">
+          <div class="col-md-3 footer-brand animated fadeInLeft">
+              <h2>The Reporter Today</h2>
+                <p>Trade marks and images used in this website are copyright of their respective owners.</p>
+                <p>© 2018 The News Reporter Inc. All rights reserved |</p>
+            </div>
+          <div class="col-md-4 footer-nav animated fadeInUp">
+              <h4>Menu —</h4>
+              <div class="col-md-6">
+                    <ul class="pages">
+                        <li class="active"><a href="world.html">World</a></li>
+                        <li><a href="sports.html">Sports</a></li>
+                        <li><a href="tech.html">Tech</a></li>
+                        <li><a href="business.html">Busieness</a></li>
+                        <li><a href="entertainment.html">Entertainment</a></li>
+                    </ul>
+                </div>
+              <div class="col-md-6">
+                    <ul class="list">
+                        <li><a href="aboutus.html" target="_blank">About Us</a></li>
+                        <li><a href="contacts.html" target="_blank">Contacts</a></li>
+                </div>
+            </div>
+          <div class="col-md-2 footer-social animated fadeInDown">
+              <h4>Follow Us</h4>
+              <ul>
+                   <li><a href="https://www.facebook.com/thereporter11/" target="_blank">Facebook</a></li>
+                    <li><a href="https://mobile.twitter.com/JaffarJawed" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/jawedjaffar/" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+          <div class="col-md-3 footer-ns animated fadeInRight">
+              <h4>Thanks</h4>
+              <p>We really appreciate the time you manage to visit our website.Your suggestions are important to us.To improve our website functionality,please mail us your valuable feedback.</p>
+                
+            </div>
+        </div>
+    </footer>
+    <section style="text-align:center; margin:10px auto;"><p style="font-weight:bolder; color:red;">Designed by JAFFAR JAWED</p></section>
+
+</div>
+          
+
+
+
+
+    <script src="Content/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="Content/Scripts/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".navbar-toggle").on("click", function () {
+            $(this).toggleClass("active");
+        });
+    });
+    </script>
+    <script>
+    // Activate Carousel
+    $("#myCarousel").carousel();
+
+    // Enable Carousel Indicators
+    $(".item").click(function(){
+    $("#myCarousel").carousel(1);
+    });
+
+    // Enable Carousel Controls
+    $(".left").click(function(){
+    $("#myCarousel").carousel("prev");
+    });
+    </script>
+  </body>
+</html>
